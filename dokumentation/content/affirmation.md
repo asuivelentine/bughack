@@ -1,0 +1,16 @@
+Eidesstattliche Erklärung {#eidesstattliche-erklärung .unnumbered}
+=========================
+
+Ich versichere, dass ich die vorstehende Arbeit selbständig verfasst und
+hierzu keine anderen als die angegebenen Hilfsmittel verwendet habe.
+Alle Stellen der Arbeit die wörtlich oder sinngemäß aus fremden Quellen
+entnommen wurden, sind als solche kenntlich gemacht.\
+\
+Die Arbeit wurde bisher in gleicher oder ähnlicher Form in keinem
+anderen Studiengang als Prüfungsleistung vorgelegt oder an anderer
+Stelle veröffentlicht.\
+\
+Ich bin mir bewusst, dass eine falsche Erklärung rechtliche Folgen haben
+kann.
+
+(1,0)<span>200</span>

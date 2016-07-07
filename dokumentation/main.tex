@@ -2,7 +2,7 @@
 	12pt,
 	a4paper,
 	bibtotoc,
-	cleardoubleempty, 
+	cleardoubleempty,
 	idxtotoc,
 	ngerman,
 	openright
@@ -12,6 +12,7 @@
 
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
+\usepackage{lmodern}
 
 \include{preamble}
 
@@ -38,7 +39,7 @@
 % Abbildungsverzeichnis einbinden und ins Inhaltsverzeichnis
 % WORKAROUND: tocloft und KOMA funktionieren zusammen nicht
 % korrekt\phantomsection
-\addcontentsline{toc}{chapter}{\listfigurename} 
+\addcontentsline{toc}{chapter}{\listfigurename}
 \listoffigures
 \cleardoubleemptypage
 
@@ -55,7 +56,7 @@
 
 \mainmatter
 
-% \include{content/einleitung}
+\include{content/einleitung}
 \include{content/grundlagen}
 \include{content/eigeneKapitel}
 % \include{content/ausblick}
@@ -75,4 +76,4 @@
 \appendix
 % Hier können Anhaenge angefuegt werden
 
-\end{document}      
+\end{document}

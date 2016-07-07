@@ -15,13 +15,15 @@
 \newcommand{\docNameD}{Martin}
 \newcommand{\docNameE}{Kai}
 
+\newcommand{\kaspar}{~Prof. Dr. Kaspar~}
+
 % Dokumentdaten
 \newcommand{\docTitle}{Semesterprojekt 2016}
 %\newcommand{\docUntertitle}{} % Kein Untertitel
 \newcommand{\docUntertitle}{Verborgene Bugs in C-Code einbauen und finden}
 %Studiengaenge: Allgemeine Informatik Bachelor, Computer Networking Bachelor,
 % Software-Produktmanagement Bachelor, Advanced Computer Scinece Master
-\newcommand{\docErsterReferent}{Prof. Dr. Kaspar}
+\newcommand{\docErsterReferent}{\kaspar}
 %\newcommand{\docZweiterReferent}{-} % Wenn es nur einen Betreuer gibt
 \newcommand{\docZweiterReferent}{-}
 
@@ -77,7 +79,7 @@
 
 \fancyhead[ER,OR]{\sffamily SS16}
 \fancyhead[EL,OL]{\sffamily Semesterprojekt}
-\fancyfoot[EL,OL]{\sffamily Gruppe AC9: Manu, Marcel, Matthieu, Martin, Kai}
+\fancyfoot[EL,OL]{\sffamily Gruppe AC9: Manuel, Marcel, Matthieu, Martin, Kai}
 \fancyfoot[ER,OR]{\sffamily \thepage}
 
 \fancypagestyle{headings}{}
@@ -104,13 +106,13 @@
 
 % Standard Zeilenabstand: 1,5 zeilig
 \usepackage{setspace}
-\onehalfspacing 
+\onehalfspacing
 
 % Schriftgroessen festlegen
-\addtokomafont{chapter}{\sffamily\large\bfseries} 
-\addtokomafont{section}{\sffamily\normalsize\bfseries} 
-\addtokomafont{subsection}{\sffamily\normalsize\mdseries} 
-\addtokomafont{caption}{\sffamily\normalsize\mdseries} 
+\addtokomafont{chapter}{\sffamily\large\bfseries}
+\addtokomafont{section}{\sffamily\normalsize\bfseries}
+\addtokomafont{subsection}{\sffamily\normalsize\mdseries}
+\addtokomafont{caption}{\sffamily\normalsize\mdseries}
 
 % ##################################################
 % Inhaltsverzeichnis / Allgemeine Verzeichniseinstellungen
@@ -192,7 +194,7 @@
 
 \usepackage{listings}
 \lstset{
-	language=java,
+	language=c,
 	backgroundcolor=\color{white},
 	breaklines=true,
 	prebreak={\carriagereturn},
@@ -202,14 +204,14 @@
  	stepnumber=2,
  	numbersep=5pt,
  	keywordstyle=\color{blue},
-   	commentstyle=\color{green},   
+   	commentstyle=\color{green},
    	stringstyle=\color{gray}
 }
-  	
+
 % ##################################################
 % Theoreme
 % ##################################################
-  	
+
 % Umgebung fuer Beispiele
 \newtheorem{beispiel}{Beispiel}
 
@@ -218,7 +220,7 @@
 
 % Umgebung fuer Definitionen
 \newtheorem{definition}{Definition}
-  	
+
 % ##################################################
 % Literaturverzeichnis
 % ##################################################
@@ -249,3 +251,6 @@
     pdfpagelabels=true,
     hyperfootnotes,
     pdftitle ={\docTitle}]{hyperref}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
