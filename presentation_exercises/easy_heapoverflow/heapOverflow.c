@@ -15,7 +15,7 @@ void heapOverflow(char* argv[]) {
 	}
 
 	diff = (long)var2 - (long)var1;
-	printf("var1 = %p & var2 = %p & diff %d\n",var1,var2,diff);
+	printf("var1 = %p & var2 = %p & diff %lu\n",var1,var2,diff);
 	strcpy(var2,"test");
 	printf("BEFORE: var2 = %s\n",var2);
 	strcpy(var1,argv[1]);
