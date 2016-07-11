@@ -9,4 +9,4 @@ dokumentation/*.toc
 dokumentation/*.idx
 dokumentation/*.pdf
 dokumentation/content/*.aux
-
+protokolle/*.tex
