@@ -17,10 +17,13 @@ content/fazit.tex: content/fazit.md
 	pandoc -o $@ $<
 content/grundlagen.tex: content/grundlagen.md
 	pandoc -o $@ $<
+content/appendix.tex: content/appendix.md
+	pandoc -o $@ $<
 
 
 
-pdf: content/abbreviations.tex content/abstract.tex content/affirmation.tex content/ausblick.tex content/eigeneKapitel.tex content/einleitung.tex content/fazit.tex content/grundlagen.tex
+pdf: content/abbreviations.tex content/abstract.tex content/affirmation.tex content/ausblick.tex content/eigeneKapitel.tex content/einleitung.tex content/fazit.tex content/grundlagen.tex content/appendix.tex
+	cd ../protokolle/ && $(MAKE) all
 	pdflatex main
 
 clean:
@@ -35,3 +38,4 @@ clean:
 	rm -f *.idx
 	rm -f *.pdf
 	rm -f content/*.aux
+	cd ../protokolle/ && $(MAKE) clean
