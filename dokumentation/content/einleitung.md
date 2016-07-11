@@ -42,4 +42,22 @@ Executables in C geschrieben die verschiedene Schwachstellen darstellen:
 
 Diese wurden auf ein Online Repository[^1] hochgeladen und sind dort ersichtlich.
 
+## Projektpräsentation
+
+Am Ende des Semesters wurden im Rahmen der Thesisvorstellungen auch die
+Semesterprojekte vorgestellt. Dafür wurden weitere Programme erstellt[^1]. Die
+Besucher konnten sich an den verschiedenen Schwierigkeitsstufen selbst
+versuchen. Folgende Hintertüren wurden implementiert:
+
+- Einen Heapoverflow welcher durch die Übergabeparameter ausgelöst wird.
+- Beim Integerunderflow-Beispiel wird auf unzulässigen Speicher zugegriffen.
+- Den Stackoverflow
+- Eine Hintertür im Grub-bootloader (CVE-2015-8370) durch die man eine rootshell
+bekommt.
+- Returned Oriented Programming um eine Manipulation am Callstack zu
+veranschaulichen.
+
+Desweiteren wurde den Besuchern weitere Grundlagen wie ASLR, Assembler und
+Bruteforcer vermittelt und veranschaulicht.
+
 [^1]: https://github.com/asuivelentine/bughack
