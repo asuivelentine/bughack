@@ -24,6 +24,9 @@ content/appendix.tex: content/appendix.md
 
 pdf: content/abbreviations.tex content/abstract.tex content/affirmation.tex content/ausblick.tex content/eigeneKapitel.tex content/einleitung.tex content/fazit.tex content/grundlagen.tex content/appendix.tex
 	cd ../protokolle/ && $(MAKE) all
+	cd ../aufgaben/bank && $(MAKE) pandoc
+	cd ../aufgaben/server_login && $(MAKE) pandoc
+	cd ../aufgaben/private_calendar  && $(MAKE) pandoc
 	pdflatex main
 
 clean:
@@ -39,3 +42,6 @@ clean:
 	rm -f *.pdf
 	rm -f content/*.aux
 	cd ../protokolle/ && $(MAKE) clean
+	cd ../aufgaben/bank && $(MAKE) clean
+	cd ../aufgaben/server_login && $(MAKE) clean
+	cd ../aufgaben/private_calendar  && $(MAKE) clean

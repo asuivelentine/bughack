@@ -10,3 +10,6 @@ dokumentation/*.idx
 dokumentation/*.pdf
 dokumentation/content/*.aux
 protokolle/*.tex
+aufgaben/bank/*.tex
+aufgaben/server_login/*.tex
+aufgaben/private_calendar/*.tex
