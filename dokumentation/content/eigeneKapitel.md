@@ -1,6 +1,4 @@
-[Aufgaben\]
-==================
-
+\chapter{Aufgaben}
 
 \input{../aufgaben/bank/stellung}
 \input{../aufgaben/bank/dokuvorgehen}
