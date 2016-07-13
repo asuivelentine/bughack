@@ -1,0 +1,32 @@
+<!ELEMENT kontakte (
+	<!ELEMENT kontakt (
+		<!ELEMENT kontaktID ( #PCDATA ) >,
+		<!ELEMENT vorname ( #PCDATA ) >,
+		<!ELEMENT nachname ( #PCDATA ) >,
+		<!ELEMENT adressen (
+			<!ELEMENT adresse (
+				<!ELEMENT adressID ( #PCDATA ) >,
+				<!ELEMENT adressTyp ( #PCDATA ) >,
+				<!ELEMENT strasse ( #PCDATA ) >,
+				<!ELEMENT hausnummer ( #PCDATA ) >,
+				<!ELEMENT plz ( #PCDATA ) >,
+				<!ELEMENT stadt ( #PCDATA ) >,
+				<!ELEMENT land ( #PCDATA ) >
+			) >
+		) >,
+		<!ELEMENT mailadressen (
+			<!ELEMENT mailadresse (
+				<!ELEMENT mailID ( #PCDATA ) >,
+				<!ELEMENT mailTyp ( #PCDATA ) >,
+				<!ELEMENT mail ( #PCDATA ) >
+			) >
+		) >,
+		<!ELEMENT telefonnummern (
+			<!ELEMENT telefonnummer (
+				<!ELEMENT telefonID ( #PCDATA ) >,
+				<!ELEMENT telefonTyp ( #PCDATA ) >,
+				<!ELEMENT telefon ( #PCDATA ) >
+			) >
+		) >
+	) >
+) >
