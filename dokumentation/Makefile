@@ -47,3 +47,5 @@ clean:
 	cd ../aufgaben/bank && $(MAKE) clean
 	cd ../aufgaben/server_login && $(MAKE) clean
 	cd ../aufgaben/private_calendar  && $(MAKE) clean
+	cd ../aufgaben/rop && $(MAKE) clean
+	cd ../aufgaben/kontaktverwaltung && $(MAKE) clean

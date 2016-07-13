@@ -24,5 +24,6 @@ readme.tex: readme.md
 
 clean:
 	@$(rm) $(TARGET) $(OBJECTS)
+	rm -rf *.tex
 	@echo "Cleanup complete!"
 
