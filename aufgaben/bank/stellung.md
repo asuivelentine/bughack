@@ -1,5 +1,5 @@
-Szenario
-========
+# Bank
+## Szenario
 
 Die Anwendung stellt ein Demo-Programm da, welches eine Account-Sperre hat, d.
 h., das viele Funktionen erst nach einer Legitimierung zur Verfügung stehen. So
@@ -8,8 +8,7 @@ sogar für den Zugang des Filialleiters verwendet werden. Daher ist für dieses
 Programm relevant, das keine unbefugten Zugriffe möglich sind, die bspw. der
 Hersteller der Software hätte implementieren sollen.
 
-Aufgabenstellung
-================
+## Aufgabenstellung
 
 Überprüfen Sie daher die Anwendung auf Möglichkeiten, die neben dem normalen
 Login, einen weiteren Zutritt ins System gewähren könnten. Erläutern Sie Ihre
