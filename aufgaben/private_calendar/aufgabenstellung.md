@@ -1,4 +1,5 @@
 # Private Calendar
+## Aufgabenstellung
 Es handelt sich hierbei um eine Fake-Application. Diese stellt einen
 passwortgeschützten Monatskalender zur Verfügung. Es gibt zwei Wege den
 Kalender einzusehen:
@@ -12,7 +13,7 @@ einen Buffer-Overflow, Undefined-Behaviour, etc.
 Ziel der Aufgabe ist, herauszufinden wie man auch ohne Eingabe des Passworts
 Zugang zum Kalender bekommt.
 
-# Dokumentation
+## Dokumentation
 Der oben beschriebene Backdoor kann genutzt werden, wenn man bei der
 Passwortabfrage in der vierten Sekunde einer jeden Minute auf Enter drückt (=
 das Passwort validieren lässt) unabhängig von dem Inhalt des Passorts.

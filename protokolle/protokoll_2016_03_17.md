@@ -1,5 +1,4 @@
-### Verborgene Bugs in C Code einbauen und finden
-##### Protokoll vom 17.03.2016 zum 1. Meeting der Projektgruppe für das Semesterprojekt 'Verborgene Bugs in C Code einbauen und finden'
+# Protokoll vom 17.03.2016 zum 1. Meeting der Projektgruppe für das Semesterprojekt 'Verborgene Bugs in C Code einbauen und finden'
 
 Das Meeting wird vom Betreuer des Semesterprojekts, Herrn Prof. Dr. Kaspar (im
 folgenden "der Betreuer"), geleitet.
@@ -16,17 +15,17 @@ Am Meeting nahmen alle Teilnehmer sowie der Betreuer teil:
 - Martin Dörflinger
 - Matthieu Laqua (Protokollant)
 
-##### Tagesordnung zum 1. Meeting der Projektgruppe:
+## Tagesordnung zum 1. Meeting der Projektgruppe:
 - TOP 1: Begrüßung der Teilnehmer
 - TOP 2: Projektinhalte
 - TOP 3: Projektergebnisse
 - TOP 4: Termine
 - TOP 5: Verschiedenes
 
-##### TOP 1: Begrüßung der Teilnehmer
+## TOP 1: Begrüßung der Teilnehmer
 Der Betreuer begrüßt die Anwesenden zum 1. Meeting der Projektgruppe.
 
-##### TOP 2: Projektinhalte
+## TOP 2: Projektinhalte
 Der Betreuer weist die Teilnehmer in das Projekt ein.  Das Projekt beinhaltet
 zwei Phasen. Die erste Phase besteht aus der Entwicklung von verschiedenen
 C-Programmen.  Diese Programme sollen verborgene Bugs und Hintertüren
@@ -38,7 +37,7 @@ Anfang sollen zunächst mehrere kleine Ideen entwickelt werden.
 
 Das Projekt soll transparent durchgeführt werden, dazu dienen die Protokolle.
 
-##### TOP 3: Projektergebnisse
+## TOP 3: Projektergebnisse
 Das Ergebnis des Semesterprojekts ist die Menge der Artefakte, die während des
 Projektzeitraums entstehen, wie:
 
@@ -52,13 +51,13 @@ Dabei soll stets ersichtlich sein, von wem das jeweilige Artefakt stammt.
 Abschließend soll eine zusammenfassende Dokumentation erstellt werden, die
 sämtliche Artefakte (ausgenommen Binaries) enthält.
 
-##### TOP 4: Termine
+## TOP 4: Termine
 - 2. Meeting mit dem Betreuer: **Do. 24.03.16 um 13:00 Uhr in C 2.09**
 - 1. internes Treffen der Teilnehmer: **Heute (Do. 17.03.16) 17:15 Uhr in C
   2.16**
 - 2. internes Treffen der Teilnehmer: **Do. 24.03.16 um 17:15 Uhr in C 2.16**
 
-##### TOP 5: Verschiedenes
+## TOP 5: Verschiedenes
 Der Betreuer ist für die Teilnehmer per Email unter der Adresse
 kas@hs-furtwangen.de für Rückfragen erreichbar.
 

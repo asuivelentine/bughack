@@ -1,5 +1,5 @@
-\[Anhang\]
-==================
+\chapter{Anhang}
+
 
 \input{../protokolle/protokoll_2016_03_17}
 \input{../protokolle/protokoll_2016_03_24}

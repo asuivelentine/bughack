@@ -1,5 +1,5 @@
-Szenario
-========
+# Server Login
+## Szenario
 
 Das Programm repraesentiert eine Online-Serververwaltung. Nach erfolgreichen 
 Login, kann die Verwaltung mittels einer Terminal-Sitzung bedient werden.
@@ -11,8 +11,7 @@ einzusehen.
 
 > passwd:	guest
 
-Aufgabenstellung
-================
+## Aufgabenstellung
 
 Verbinden Sie sich mit dem Server und melden sich als Guest an. Machen Sie sich
 einen ersten Eindruck von der Verwaltung und deren Funktionen.
