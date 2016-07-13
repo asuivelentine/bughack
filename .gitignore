@@ -15,3 +15,11 @@ aufgaben/server_login/*.tex
 aufgaben/private_calendar/*.tex
 aufgaben/kontaktverwaltung/*.tex
 aufgaben/rop/*.tex
+presentation_exercises/easy_heapoverflow/*.tex
+presentation_exercises/easy_integer_underflow/*.tex
+presentation_exercises/easy_stackoverflow/*.tex
+presentation_exercises/hard_grub2-CVE-2015-8370-rebuild/*.tex
+presentation_exercises/medium_rop_attack/*.tex
+presentation_exercises/other_stuff/aslr_test/*.tex
+presentation_exercises/other_stuff/brute_example/*.tex
+
