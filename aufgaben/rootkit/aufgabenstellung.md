@@ -1,3 +1,4 @@
+# Rootkit
 ## Szenario / Aufgabenstellung
 Als Hacker habt ihr unbemerkt auf einem Server ein Rootkit installiert euch bei
 der Installation eines Rootkits. Es gibt noch einen unprivilegierten user, mit

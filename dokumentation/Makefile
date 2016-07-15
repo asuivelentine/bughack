@@ -26,6 +26,7 @@ pdf: content/abbreviations.tex content/abstract.tex content/affirmation.tex cont
 	cd ../protokolle/ && $(MAKE) all
 	cd ../aufgaben/bank && $(MAKE) pandoc
 	cd ../aufgaben/server_login && $(MAKE) pandoc
+	cd ../aufgaben/rootkit && $(MAKE) pandoc
 	cd ../aufgaben/private_calendar  && $(MAKE) pandoc
 	cd ../aufgaben/rop && $(MAKE) pandoc
 	cd ../aufgaben/kontaktverwaltung && $(MAKE) pandoc
@@ -47,6 +48,7 @@ clean:
 	cd ../protokolle/ && $(MAKE) clean
 	cd ../aufgaben/bank && $(MAKE) clean
 	cd ../aufgaben/server_login && $(MAKE) clean
+	cd ../aufgaben/rootkit && $(MAKE) clean
 	cd ../aufgaben/private_calendar  && $(MAKE) clean
 	cd ../aufgaben/rop && $(MAKE) clean
 	cd ../aufgaben/kontaktverwaltung && $(MAKE) clean
