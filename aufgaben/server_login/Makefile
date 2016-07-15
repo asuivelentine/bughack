@@ -13,14 +13,11 @@ handler.o: handler.c handler.h types.h
 lib.o: lib.c types.h
 	gcc -ggdb -fno-inline-small-functions -c lib.c types.h
 
-Aufgabenstellung.tex: Aufgabenstellung.md
-	pandoc -o $@ $<
-dokuvorgehen.tex: dokuvorgehen.md
-	pandoc -o $@ $<
-
 pandoc: Aufgabenstellung.tex dokuvorgehen.tex
 
 Aufgabenstellung.tex: Aufgabenstellung.md
+	pandoc -o $@ $<
+dokuvorgehen.tex: dokuvorgehen.md
 	pandoc -o $@ $<
 
 clean:
