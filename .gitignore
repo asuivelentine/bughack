@@ -23,3 +23,7 @@ presentation_exercises/medium_rop_attack/*.tex
 presentation_exercises/other_stuff/aslr_test/*.tex
 presentation_exercises/other_stuff/brute_example/*.tex
 aufgaben/rootkit/*.tex
+aufgaben/server_login/handler.h.gch
+aufgaben/server_login/*.o
+aufgaben/server_login/*.h.gch
+aufgaben/server_login/prog
