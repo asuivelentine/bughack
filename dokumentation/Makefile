@@ -27,6 +27,9 @@ pdf: content/abbreviations.tex content/abstract.tex content/affirmation.tex cont
 	cd ../aufgaben/bank && $(MAKE) pandoc
 	cd ../aufgaben/server_login && $(MAKE) pandoc
 	cd ../aufgaben/private_calendar  && $(MAKE) pandoc
+	cd ../aufgaben/rop && $(MAKE) pandoc
+	cd ../aufgaben/kontaktverwaltung && $(MAKE) pandoc
+	cd ../presentation_exercises && $(MAKE) pandoc
 	pdflatex main
 
 clean:
@@ -45,3 +48,6 @@ clean:
 	cd ../aufgaben/bank && $(MAKE) clean
 	cd ../aufgaben/server_login && $(MAKE) clean
 	cd ../aufgaben/private_calendar  && $(MAKE) clean
+	cd ../aufgaben/rop && $(MAKE) clean
+	cd ../aufgaben/kontaktverwaltung && $(MAKE) clean
+	cd ../presentation_exercises && $(MAKE) clean
