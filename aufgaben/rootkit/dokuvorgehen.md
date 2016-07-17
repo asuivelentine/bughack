@@ -22,7 +22,7 @@
  1. Selbes verhalten auf Host-System: Ansatz verworfen
 1. `Strings` angewendet:   
     Auffälligkeit:   
-    `5f23 %#08lx` => Einbeziehung des ELF-Adressraumes: 0x405f23: __1.3 Stunden_
+    `5f23 %#08lx` => Einbeziehung des ELF-Adressraumes: 0x405f23: __1.3 Stunden__
 1. `su --help` ausgeführt: Auffälligkeit -> es gibt ein `-v --verbose` Flag. Dieses Flag wird in der manpage nicht erwähnt.
 1. `su -v` ausgeführt: keine Auffälligkeit
 1. `su -v 4` ausgeführt: keine Auffälligkeit: user 4 does not exist
