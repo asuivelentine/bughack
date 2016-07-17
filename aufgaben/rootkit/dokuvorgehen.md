@@ -1,4 +1,4 @@
-## Dokumentation des Vorgehens
+## Dokumentation des Vorgehens zur Lösung der Aufgabe
 ### Allgemeine Informationen sammeln
 
 1. Die gegebene IP anpingen -> Server ist erreichbar
