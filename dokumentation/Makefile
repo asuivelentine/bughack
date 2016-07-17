@@ -45,6 +45,7 @@ clean:
 	rm -f *.idx
 	rm -f *.pdf
 	rm -f content/*.aux
+	rm -f `find content/ -name "*.tex" -a ! -name "title.tex"`
 	cd ../protokolle/ && $(MAKE) clean
 	cd ../aufgaben/bank && $(MAKE) clean
 	cd ../aufgaben/server_login && $(MAKE) clean
