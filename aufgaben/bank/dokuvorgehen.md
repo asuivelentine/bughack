@@ -1,4 +1,4 @@
-## Dokumentation des Vorgehens
+## Dokumentation des Vorgehens zur Lösung der Aufgabe
 ### Allgemeine Informationen sammeln
 1. `file` angewendet: `ELF64`, dynamisch gelinkt, stripped
 1. `ldd` angewendet: `libcrypt.so` wird benutzt
