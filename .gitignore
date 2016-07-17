@@ -9,6 +9,7 @@ dokumentation/*.toc
 dokumentation/*.idx
 dokumentation/*.pdf
 dokumentation/content/*.aux
+dokumentation/content/*.tex
 protokolle/*.tex
 aufgaben/bank/*.tex
 aufgaben/server_login/*.tex
