@@ -54,8 +54,8 @@
       enableDebug
       Command not found. Enter help for an overview of existing commands
       ```
-      
-## Finden der Sicherheitslücke im C-Quellcode
+
+### Finden der Sicherheitslücke im C-Quellcode
 
 Bei einer Quellcode-Analyse sind folgende Auffälligkeiten ins Auge gestochen:
     - Das Kommando, das die Rechteerweitung ausführt (`serverstatus`) wird in der Funktion `parse_command` in der Datei `handler.c` implementiert.
@@ -82,12 +82,12 @@ Bei einer Quellcode-Analyse sind folgende Auffälligkeiten ins Auge gestochen:
                 strcat(answer, "unknown ID\n");
         }
         ```
-        
+
     - In der Datei `lib.c` wurde die Funktion `show_server_info` implementiert, dort hat sie vier Übergabeparameter: 
         ```
         void show_server_info(char buffer[], int server_id, user_group rights, unsigned int* status)
         ```
-        
+
     - In der Datei `handler.c` wird die Funktion `show_server_info` jedoch mit nur drei Übergabeparametern bekannt gemacht: 
         ```
         extern void show_server_info(char*, char*, user_group)
@@ -132,7 +132,7 @@ In unserem Fall ist das der folgende Funktionsaufruf:
                                                                      ^
                                                                      |
     ```
-    
+
 Letztlich wird also folgendes Aufgerufen:
 
 ```
