@@ -83,22 +83,25 @@ Bei einer Quellcode-Analyse sind folgende Auffälligkeiten ins Auge gestochen:
         }
         ```
 
-    - In der Datei `lib.c` wurde die Funktion `show_server_info` implementiert, dort hat sie vier Übergabeparameter: 
+    - In der Datei `lib.c` wurde die Funktion `show_server_info` implementiert,
+	  dort hat sie vier Übergabeparameter: 
         ```
         void show_server_info(char buffer[], int server_id, user_group rights, unsigned int* status)
         ```
 
-    - In der Datei `handler.c` wird die Funktion `show_server_info` jedoch mit nur drei Übergabeparametern bekannt gemacht: 
+    - In der Datei `handler.c` wird die Funktion `show_server_info` jedoch mit  
+      nur drei Übergabeparametern bekannt gemacht: 
         ```
         extern void show_server_info(char*, char*, user_group)
             vs.
         extern void show_server_info(char*, char*, user_group, unsigned int*)
         ```
-    - Beim Aufruf der Funktion scheint der derzeitig eingeloggte User jedoch in der Variablen `status` referenziert zu werden.
+    - Beim Aufruf der Funktion scheint der derzeitig eingeloggte  
+      User jedoch in der Variablen `status` referenziert zu werden.
         ```
         // lib.c:257: show_server_info(...)
         if(status && (state == false)){
-            *status = -1;                                  // <-- hier wird der Benutzer `banane` zum Admin.
+            *status = -1;        // <-- hier wird der Benutzer `banane` zum Admin.
         }
         ```
 
