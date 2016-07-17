@@ -1,4 +1,4 @@
-## Vorgehensweise zur Lösung der Server-Login Aufgabe
+## Dokumentation des Vorgehens zur Lösung der Aufgabe
 ### Finden der Sicherheitslücke in der Anwendung selbst
 
 - Mit nmap den Port ausfindig machen, auf dem der telnet server läuft (9000)
