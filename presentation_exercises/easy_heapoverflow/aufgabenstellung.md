@@ -2,16 +2,16 @@
 
 ### Szenario
 
-Sie Arbeiten bei einem Mittelstaendischen Softwareunternehmen. Bei der Analyse 
-des Legacy Codes stossen Sie ueber ungeschuetzte Stringoperationen. Diese 
-reporten Sie beim naechstem Meeting. Ihre Kollegen sehen jedoch kein Problem
+Sie Arbeiten bei einem Mittelständischen Softwareunternehmen. Bei der Analyse 
+des Legacy Codes stoßen Sie über ungeschützte Stringoperationen. Diese 
+reporten Sie beim nächstem Meeting. Ihre Kollegen sehen jedoch kein Problem
 mit diesem Code und glauben nicht, dass dieser Schwachstellen beinhaltet.
 
 ### Aufgabenstellung
 
 Zeigen Sie den Kollegen, dass dieser Code unsafe ist indem Sie das Programm zum
-absturtz bringen. Erlaeutern Sie daraufhin, wie man diesen Crash dazu nutzen
-kann, eigenen Code einschleissen und ausfuehren zu lassen.
+absturtz bringen. Erläutern Sie daraufhin, wie man diesen Crash dazu nutzen
+kann, eigenen Code einschleusen und ausführen zu lassen.
 
 ### Dokumentation
 
@@ -26,7 +26,7 @@ und var2 aus und zeigt auch den Abstand zwischen diesen Variablen an. Danach zei
 normale Eingabegröße dennoch ausgegeben werden kann und var1 nicht überschreibt. Erst wenn man das
 Programm mit entsprechend großem Argument, d. h. mehr als 4 Zeichen, startet, sieht man den
 Effekt eines Heap-Overflows. Heap-Overflows können von Angreifern verwendet werden, um
-Shellocde auf den Heap abzulegen. Standardmässig besteht auf dem Heap nur ein Lese-/Schreibzugriff,
+Shellocde auf den Heap abzulegen. Standardmäßig besteht auf dem Heap nur ein Lese-/Schreibzugriff,
 d. h. Daten auf dem Heap können nicht ausgeführt werden. Umgeht man auch diesen Schutzmechanismus
 der Betriebsysteme (Linux: NX-Bits, Windows: DEP), so ist es Angreifern möglich, viel Schadcode
 einzuschleußen und dadurch die Kontrolle über das System zu erlangen. Ein Heap-Overflow ist deshalb

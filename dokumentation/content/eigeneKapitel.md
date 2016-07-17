@@ -10,7 +10,7 @@
 \input{../aufgaben/rop/readme}
 \input{../aufgaben/kontaktverwaltung/readme}
 
-\chapter{Praesentation}
+\chapter{Präsentation}
 
 \input{../presentation_exercises/easy_stackoverflow/dokumentation}
 \input{../presentation_exercises/easy_integer_underflow/aufgabenstellung}

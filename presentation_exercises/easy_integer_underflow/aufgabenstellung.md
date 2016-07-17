@@ -2,9 +2,9 @@
 
 ### Szenario
 Mittels diesem Beispiel wird veranschaulicht, dass bei Angaben von einer 
-Laenge doppelt geprueft werden muss. In Vielen C-Funktionen muss als zusaetzlicher
-Parametere die Bufferlength angegeben wird. Hier koennen unachtsamkeiten schnell
-zu einem ungewollten Sicherheitsrisiko fuehren.
+Länge doppelt geprüft werden muss. In Vielen C-Funktionen muss als zusätzlicher
+Parametere die Bufferlength angegeben wird. Hier können unachtsamkeiten schnell
+zu einem ungewollten Sicherheitsrisiko führen.
 
 ### Aufgabenstellung
 Analysieren Sie das Programm, finden Sie den Fehler und nutzen sie diesen zu

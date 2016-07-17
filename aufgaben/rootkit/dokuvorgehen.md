@@ -8,7 +8,7 @@
 1. `uname -a`: Allgemeine Informationen zum System: Linux arch 4.5.4-1-ARCH #1 SMP PREEMPT x86_64 GNU/Linux
 1. Logs versucht einzusehen: No Permissions
 1. Installierte Programme einsehen und analysieren: __30 Minuten__ 
-1. Berechtigungen anschauen: Dabei viel auf, dass das Änderungsdatum der `su`-Binary von den anderen abweicht: Zufall
+1. Berechtigungen anschauen: Dabei fiel auf, dass das Änderungsdatum der `su`-Binary von den anderen abweicht: Zufall
 1. Vermutung: Rootkit in der Binary.
 1. Einlesen zum Thema Rootkits: [^1][^2][^3]
 1. `file` angewendet: su: setuid ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 2.6.32, BuildID[sha1]=a6fdad0603136d4b68ee933c322f7908bbbb775e, stripped
@@ -27,7 +27,7 @@
 1. `su -v` ausgeführt: keine Auffälligkeit
 1. `su -v 4` ausgeführt: keine Auffälligkeit: user 4 does not exist
 1. `strace` ausgeführt: Geht nur bis zur Eingabe des Passworts
-1. `strace` auf su process attachen: No permissions
+1. `strace` auf su prozess attachen: No permissions
 1. Den `strace` output mit dem des Host-Systems verglichen __1.7 Stunden__
 1. Mit GDB debuggen: Keine Neuen Informationen: __1 Stunde__
 1. Mit Disassembler statisch analysiert (radare2 v.0.10.2)

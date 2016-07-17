@@ -4,7 +4,7 @@
 
 Das Projekt wird von Studenten der HFU als Semesterprojekt durchgeführt. Die
 Idee kam von \kaspar der dieses Projekt im Sommersemester 2016 bereit stellte.
-Das Projekt wurde folgendermassen beworben:
+Das Projekt wurde folgendermaßen beworben:
 
 > In diesem Projekt soll gezielt verborgene Funktionalität vorzugsweise
 > als Bugs in C oder C++ Code eingebaut werden. Jeder Teilnehmer
