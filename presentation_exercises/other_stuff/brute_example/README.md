@@ -3,20 +3,27 @@
 Hierbei handelt es sich um keine Schwachstelle oder Sicherheitslücke, sondern es soll
 den Besuchern zeigen, dass man bereits mit wenig Zeilen Quellcode ein
 Passwortcracker programmieren kann. 
-Zugegeben, eine Bruteforce-Anwendung ist nicht die effektivste Attacke, jedoch ist sie oft hilfreich.  
+Zugegeben, eine Bruteforce-Anwendung ist nicht die effektivste Attacke, jedoch
+ist sie oft hilfreich.  
 Um dies zu Demonstrieren, wurde ein weiteres Programm erstellt: dieses wartet
 auf eine bestimmte Eingabe, welche der "Bruteforcer"  anschließend erraten soll.
 
 ### Aufgabenstellung
 1. Mit `gcc` das Demoprogramm kompilieren: 
-gcc -o pass pass.c
+```
+$ gcc -o pass pass.c
+```
 
 2. Awendung testhalber mit Beispielargumenten ausführen
 3. Sicherung von `brute.c` anlegen
-cp brute.c brute.c.BK
+```
+$ cp brute.c brute.c.BK
+```
 
 4. `brute.c` anpassen und erlaubte Zeichenmenge entsprechend festlegen
 5. Bruteforce-Awendung kompilieren:  
-gcc -o bruteforce brute.c
+```
+$ gcc -o bruteforce brute.c
+```
 
-6. Bruteforce-Angriff starten
+6. Bruteforce-Angriff starten:
