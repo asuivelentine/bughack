@@ -1,4 +1,3 @@
-,ö
 # Server Login
 ## Szenario
 
