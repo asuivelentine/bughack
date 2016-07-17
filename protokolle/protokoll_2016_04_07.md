@@ -18,13 +18,13 @@ Abwesende:
 
 - Manuel Johannes Messner
 
-## Tagesordnung zum 3. Meeting der Projektgruppe:
+## Tagesordnung zum 3. Meeting der Projektgruppe: {-}
 - TOP 1: Protokoll und Projektplan
 - TOP 2: Notengebung
 - TOP 3: Dokumentation
 - TOP 4: Termine
 
-## TOP 1: Protokoll und Projektplan
+## TOP 1: Protokoll und Projektplan {-}
 Der Betreuer stellt klar, dass die Rolle des Protokollanten nicht immer der
 gleichen Person zugeteilt werden soll, da es sich um eine Lehrveranstaltung
 handelt. Beim nächsten Meeting soll jemand anderes das Protokoll führen.
@@ -35,7 +35,7 @@ zu übertragen. Hier merkt der Betreuer an, darauf zu achten, dass man immer
 weiß was man gerade zu tun hat. Sollte das nicht der Fall sein, soll sofort
 nachgefragt werden.
 
-## TOP 2: Notengebung
+## TOP 2: Notengebung {-}
 Auf die Nachfrage von Marcel hin, beschreibt der Betreuer einige Dinge
 hinsichtlich der Notengebung:
 
@@ -51,7 +51,7 @@ hinsichtlich der Notengebung:
 Da das Semesterprojekt jedoch noch sehr am Anfang steht, wurde das Thema
 Notengebung auf ein späteres Meeting verschoben.
 
-## TOP 3: Dokumentation
+## TOP 3: Dokumentation {-}
 Auf Nachfrage klärt der Betreuer was die Anforderungen an die
 Projektabschlussdokumentation sind.
 
@@ -61,7 +61,7 @@ Projektabschlussdokumentation sind.
     - Bsp: Webserver wurde modifiziert => dieser kommt auch ins Repository
 - Quellen müssen in die Dokumentation
 
-## TOP 4: Termine
+## TOP 4: Termine {-}
 Das 4. Meeting mit dem Betreuer findet am **Do. 21.04.16 um 13:00 Uhr in C 2.09**
 statt.
 

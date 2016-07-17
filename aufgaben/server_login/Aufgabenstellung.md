@@ -44,7 +44,7 @@ desto mehr Rechte hat der User auf dem System. Der Adminaccount hat eine
 reputation von `-1`.
 
 
-## Im Detail
+### Im Detail
 Die Schwachstelle steht hierbei nicht direkt im Quelltext. Sie entsteht viel
 mehr durch das das Herausnehmen von Programmteilen. Wirklich eingesehen werden
 kann sie erst, nachdem der Assembler die Datei geparsed hat. Dafuer wurde der
