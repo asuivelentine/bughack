@@ -7,11 +7,11 @@ kann. Dabei wird der Base-Pointer veraendert, sodass das Programm einen
 alternativen Ablauf nimmt. Z.B. koennen dadurch Funktionen aufgerufen werden, 
 welche das Programm eigentlich nicht nutzt.
 
-`Hinweis: Der Stackprotecor sowie ASLR muessen ausgeschalten wernden`
+`Hinweis: Der Stackprotecor sowie ASLR müssen ausgeschalten wernden`
 
 ### Aufgabenstellung
 Rufen Sie die Funktion `notCalled` auf, ohne den Quellcode des Programmes 
-abzuaendern.
+abzuändern.
 
 ### Dokumentation
 Dieses Beispiel wurde selbst nicht näher ausgebaut und ist bewusst abstrakt gehalten,
@@ -38,5 +38,6 @@ nachlesen. Da diese Aufgabe auch nur für Experten gedacht war, haben wir diese 
 gearbeitet. Wir haben diese auch bewusst dem Schwierigkeitsgrad "Medium" zugeordnet, obwohl diese
 mit Abstand die schwerste Aufgabe war, da wir natürlich auch herausfinden wollten, welcher
 der Personen sich auskennt. Allen anderen würde dies nicht auffallen ;) Programm darf natürlich
-weiter ausgearbeitet werden.<br/>
-Quelle: http://codearcana.com/posts/2013/05/28/introduction-to-return-oriented-programming-rop.html
+weiter ausgearbeitet werden<br/>[^1].
+
+[^1]: Quelle: http://codearcana.com/posts/2013/05/28/introduction-to-return-oriented-programming-rop.html
