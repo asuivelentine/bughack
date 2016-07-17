@@ -13,7 +13,7 @@ Zeigen Sie den Kollegen, dass dieser Code unsafe ist indem Sie das Programm zum
 absturtz bringen. Erlaeutern Sie daraufhin, wie man diesen Crash dazu nutzen
 kann, eigenen Code einschleissen und ausfuehren zu lassen.
 
-## Dokumentation
+### Dokumentation
 
 Bei der Erstellung dieser Aufgabe ging es uns darum, ein einfaches Beispiel zu finden,
 wie man auch Einsteiger in der Programmiersprache C zeigen kann, welche Auswirkungen ein

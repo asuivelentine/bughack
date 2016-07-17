@@ -1,4 +1,6 @@
-## Dokumentation
+## Aufgabenstellung Stackoverflow
+
+### Dokumentation
 Bei diesem Beispiel ging es um einen einfach Stackoverflow. Dieser kann
 ausgelöst werden, wenn man mehr als 3 Zeichen eingibt, da die Input-Variable
 4 Zeichen speichert (eins für das Null-Terminiert Zeichen). Um den Angriff
@@ -18,3 +20,7 @@ bspw. der des eingefügten Shellcodes, verweisen kann. Diese Aufgabe demonstrier
 also anschaulich, was mit dem Stack passieren kann. Damit die Leute nicht ganz
 ratlos sind, haben wir zudem ein kleines Beispielprogramm geschrieben, in denen
 daher die Argumente geprüft werden.
+
+### Aufgabenstellung
+- Finden Sie die Schwachstelle im Quelltext
+- Erläutern Sie die Gefahren, welche daraus entstehen
