@@ -6,6 +6,7 @@
 \input{../aufgaben/server_login/Aufgabenstellung}
 \input{../aufgaben/server_login/dokuvorgehen}
 \input{../aufgaben/rootkit/aufgabenstellung}
+\input{../aufgaben/rootkit/dokuvorgehen}
 \input{../aufgaben/rop/readme}
 \input{../aufgaben/kontaktverwaltung/readme}
 
