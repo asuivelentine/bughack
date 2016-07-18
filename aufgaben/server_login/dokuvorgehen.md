@@ -46,7 +46,7 @@
         name:         [admin]
         debug:        [True]
         ```
-    - offenbar ist man jetzt admin
+    - offenbar ist man jetzt Administrator
     - `help` gibt jetzt zusätzlich noch `enableDebug` als Befehl aus,
       allerdings ist die Liste korrumpiert
     - `enableDebug` scheint keine Funktion zu haben, da der Befehl nicht
@@ -105,8 +105,8 @@ extern void show_server_info(char*, char*, user_group)
 extern void show_server_info(char*, char*, user_group, unsigned int*)
 ```
 
-- Beim Aufruf der Funktion scheint der derzeitig eingeloggte  User jedoch in
-  der Variablen `status` referenziert zu werden.
+- Beim Aufruf der Funktion scheint der derzeitig eingeloggte User jedoch in der
+  Variablen `status` referenziert zu werden.
 
 ```
 // lib.c:257: show_server_info(...)
@@ -144,7 +144,7 @@ Wenn nun die Funktion `show_server_info` mit einem Parameter zu wenig
 aufgerufen wird, so "bekommt" sie dennoch den fehlenden Parameter. Genauer
 gesagt, wird einfach der Wert genommen, der bereits davor im entsprechenden
 Register (hier das `rcx` Register) drin stand, also zum Beispiel der Wert aus
-einem anderen Funktionsaufruf (mit entsprechend vielen Parametern).  In unserem
+einem anderen Funktionsaufruf (mit entsprechend vielen Parametern). In unserem
 Fall ist das der folgende Funktionsaufruf:
 
 ```
