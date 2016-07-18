@@ -7,7 +7,7 @@
 \input{../aufgaben/server_login/dokuvorgehen}
 \input{../aufgaben/rootkit/aufgabenstellung}
 \input{../aufgaben/rootkit/dokuvorgehen}
-\input{../aufgaben/rop/readme}
+\input{../aufgaben/rop/dokumentation}
 \input{../aufgaben/kontaktverwaltung/readme}
 
 \chapter{Präsentation}
