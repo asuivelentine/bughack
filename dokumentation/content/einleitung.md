@@ -2,8 +2,8 @@
 
 # Projektumfeld
 
-Das Projekt wird von Studenten der HFU als Semesterprojekt durchgeführt. Die
-Idee kam von \kaspar der dieses Projekt im Sommersemester 2016 bereit stellte.
+Das Projekt wird von Studierenden der HFU als Semesterprojekt durchgeführt. Die
+Idee kam von \kaspar der dieses Projekt im Sommersemester 2016 bereitstellte.
 Das Projekt wurde folgendermaßen beworben:
 
 > In diesem Projekt soll gezielt verborgene Funktionalität vorzugsweise
@@ -17,49 +17,48 @@ Das Projekt wurde folgendermaßen beworben:
 > von Bugs bzw. Hintertüren. Es gilt dabei möglichst produktiv zu sein,
 > das bedeutet, die richtigen Werkzeuge zu verwenden.
 
+Nach dem ersten Treffen hat sich dann diese Vorgehensweise ergeben:
 
-Nach dem erstem Treffen hat sich dann diese Vorgehensweise ergeben:
-
-1. Zwei Teams werden gebildet
-    - Ein Team entwickelt eine Executable für die andere
+1. Es werden zwei Teams gebildet
+1. Ein Team entwickelt eine Executable für die jeweils andere
 1. Nun wird versucht die Hintertür zu finden und auszunutzen.
-1. Als letzer Schritt wird der Source Code auch preisgegeben
-1. Es sollte am besten in beiden Versionen nicht sichtbar sein
+1. Als letzer Schritt wird der Source Code preisgegeben
+1. Die Hintertür sollte am besten in beiden Versionen nicht offensichtlich sein
 1. Nach etwa 4 Wochen werden die Teams neu zusammengestellt und der Prozess
    wiederholt.
 
 # Projektverlauf
 
-Der Projektverlauf verlief nur mit wenigen Organisationsproblemen und lief
-somit nach dem oben angegebenem Plan. Das Endresultat besteht aus vier
-Executables in C geschrieben die verschiedene Schwachstellen darstellen:
+Der Verlauf des Projekts wurde nur durch wenige Organisationsprobleme
+unterbrochen und lief somit nach dem oben dargestellten Plan. Das Endresultat
+besteht aus vier Executables in C geschrieben die verschiedene Schwachstellen
+beinhalten:
 
-- Eine Bank Emulation die Signale benutzt um eine Hintertür zu öffnen.
-- Eine Kalendar Applikation mit einem Timing um hereinzukommen
+- Eine Bank Emulation, die Signale benutzt um eine Hintertür zu öffnen
+- Eine Kalender Applikation mit einem Timing um hereinzukommen
 - Ein Remote Server mit eingebautem Fehlerverhalten
-- Eine gepatchte `su` executable mit einem Bufferoveflow um root rechte zu
-  bekommen.
+- Eine gepatchte `su` executable mit einem Bufferoveflow um root-Rechte zu
+  bekommen
 
-Diese wurden auf ein Online Repository[^1] hochgeladen und sind dort
-ersichtlich.
+Diese wurden auf ein Online Repository[^1] hochgeladen und sind dort einsehbar.
 
 ## Projektpräsentation
 
 Am Ende des Semesters wurden im Rahmen der Thesisvorstellungen auch die
 Semesterprojekte vorgestellt. Dafür wurden weitere Programme erstellt (auch im
-Online Repository ersichtlich). Die Besucher konnten sich an den verschiedenen
+Online Repository einsehbar). Die Besucher konnten sich an den verschiedenen
 Schwierigkeitsstufen selbst versuchen. Folgende Hintertüren wurden
 implementiert:
 
-- Einen Heapoverflow welcher durch die Übergabeparameter ausgelöst wird.
+- Ein Heapoverflow welcher durch die Übergabeparameter ausgelöst wird.
 - Beim Integerunderflow-Beispiel wird auf unzulässigen Speicher zugegriffen.
-- Den Stackoverflow
-- Eine Hintertür im Grub-bootloader (CVE-2015-8370) durch die man eine
+- Ein Stackoverflow
+- Eine Hintertür im Grub-Bootloader (CVE-2015-8370) durch die man eine
   rootshell bekommt.
 - Returned Oriented Programming um eine Manipulation am Callstack zu
   veranschaulichen.
 
-Desweiteren wurde den Besuchern weitere Grundlagen wie ASLR, Assembler und
+Desweiteren wurden den Besuchern weitere Grundlagen wie ASLR, Assembler und
 Bruteforcer vermittelt und veranschaulicht.
 
 [^1]: https://github.com/asuivelentine/bughack
