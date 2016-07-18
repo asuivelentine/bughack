@@ -19,7 +19,7 @@
 
 ### Genauere Analyse
 1. Fuzzing auf `su` angewendet: ab einer gewissen Länge -> bash: command not found
- 1. Selbes verhalten auf Host-System: Ansatz verworfen
+ 1. Gleiches Verhalten auf Host-System: Ansatz verworfen
 1. `Strings` angewendet:   
     Auffälligkeit:   
     `5f23 %#08lx` => Einbeziehung des ELF-Adressraumes: 0x405f23: __1.3 Stunden__
@@ -28,11 +28,11 @@
 1. `su -v 4` ausgeführt: keine Auffälligkeit: user 4 does not exist
 1. `strace` ausgeführt: Geht nur bis zur Eingabe des Passworts
 1. `strace` auf su prozess attachen: No permissions
-1. Den `strace` output mit dem des Host-Systems verglichen __1.7 Stunden__
-1. Mit GDB debuggen: Keine Neuen Informationen: __1 Stunde__
+1. Den `strace` output mit dem des Host-Systems vergleichen __1.7 Stunden__
+1. Mit GDB debuggen: Keine neuen Informationen: __1 Stunde__
 1. Mit Disassembler statisch analysiert (radare2 v.0.10.2)
- 1. Main-Wrapper auflösen um die richtige Main-Methode zu finden
- 1. Die `richtige` Main Funktion im Assembler analysiert: __6.5 Stunden__
+    1. Main-Wrapper auflösen um die richtige Main-Methode zu finden
+    1. Die `richtige` Main Funktion im Assembler analysiert: __6.5 Stunden__
 1. `getopt`-Funktion suchen -> 0x4041e6  
     Auffälligkeit: `getopt`-Parameter: `v` erlaubt einen optionalen Parameter
 1. `su -vx` ausgeführt: Es wird eine Adresse ausgegeben -> 0x7fffffffeaf0
@@ -50,11 +50,11 @@
     Aufruf: 0x4041e6  
     Funktion: 0x40c2e1
 1. Diese Funktion macht File-Handling-stuff.
- 1. Zunächst vermutet, es handelt sich nicht mehr um den `-v`-Case.
+1. Zunächst vermutet, es handelt sich nicht mehr um den `-v`-Case.
 1. `su -vDatei.txt` ausgeführt: Segmentation fault: __2.0 Stunden__
 1. Herausfinden, wie groß die Datei mindestens sein muss, um einen Segmentation fault auszulösen:   
     137 Zeichen; vielleicht sind aber noch weitere Bytes durch Variablen belegt, bevor Base-Pointer und Instruction-Pointer kommen:  
-    144 Zeichen bis Base-Peointer: __11.5 Stunden__
+    144 Zeichen bis Basepointer: __11.5 Stunden__
 1. Mittels der Analyse im Disassembler eine Stelle suchen, die ausgenutzt werden kann: execvp gefunden: 0x404777: __1 Stunde__
 1. Die Adresse des Exec-Befehls an Datei.txt anhängen: Keine Veränderung.
 1. Analyse der Adress-Ausgabe: Der Basepointer wird ausgegeben.
@@ -69,7 +69,6 @@
 1. Die Funktion ruft `setuid` und `setgid` auf (jeweils 0 als Argument):  
     Ersetzen der Exec-Adresse in der Datei mit der Adresse des Funktionsaufrufs (s.o.)
 1. `su -vDatei.txt ls` ausführen: `ls`: wird als root ausgeführt __30 Minuten__ 
-
 
 ### Hexdump der Datei
 
