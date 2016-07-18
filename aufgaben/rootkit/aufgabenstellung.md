@@ -1,8 +1,8 @@
 # Rootkit
 ## Szenario / Aufgabenstellung
-Als Hacker habt ihr unbemerkt auf einem Server ein Rootkit installiert euch bei
-der Installation eines Rootkits. Es gibt noch einen unprivilegierten user, mit
-dem ihr euch einloggen könnt.
+Als Serveradmin habt ihr unbemerkt auf einem eurer Server ein Rootkit
+installiert und euch dabei selbst ausgesperrt. Es gibt nun nur noch einen
+unprivilegierten user, mit dem ihr euch einloggen könnt.
 
 > Server: [arch.studicloud.hs-furtwangen.de]()
 
@@ -36,12 +36,13 @@ zusätzlichen Kommandozeilenparameter entschieden, da dieser, aufgrund der
 häufigen Nutzung in den meisten CLI-Programmen, weniger schnell auffällt und
 noch nicht vorhanden war. Außerdem haben wir uns aus demselben Grund für die
 Benutzung des optionalen Parameters entschieden. Im Falle der gewohnten Nutzung
-des verbose-Flags würde dem Admin kein Unterschied auffallen, da erst bei
-Angabe eines gültigen Dateipfades die sichtbare Anwendungslogik verändert wird.
+des verbose-Flags würde dem Administrator kein Unterschied auffallen, da erst
+bei Angabe eines gültigen Dateipfades die sichtbare Anwendungslogik verändert
+wird.
 
-Der Bufferoverflow selbst kann durch Eingabe eines korrekten
-Stacki-Basepointers und der korrekten Rücksprungadresse ausgelöst werden. Es
-ist kein Shellcode im eigentlichen Sinne notwendig.
+Der Bufferoverflow selbst kann durch Eingabe eines korrekten Stack-Basepointers
+und der korrekten Rücksprungadresse ausgelöst werden. Es ist kein Shellcode im
+eigentlichen Sinne notwendig.
 
 ### Hilfestellungen
 Damit die Aufgabe im Rahmen des Semesterprojekts lösbar bleibt, haben wir
@@ -63,10 +64,10 @@ mündlich weitergegeben.
    Randomization (ASLR) deaktiviert.
 
 ### VM
-Wie der Aufagbenstellung zu entnehmen ist, wurde der Rootkit auf einer VM
+Wie der Aufgabenstellung zu entnehmen ist, wurde der Rootkit auf einer VM
 innerhalb der Studicloud installiert. Anschließend haben wir sämtliche anderen
 Möglichkeiten root-Rechte zu erlangen deinstalliert. Außerdem haben wir
-sämtliche Passwörter durch cryptischen Hashes ersetzt.
+sämtliche Passwörter durch kryptische Hashes ersetzt.
 
 Die einzige Möglichkeit jetzt noch root-Rechte zu erlangen ist damit unser
 Rootkit. Nun haben wir einen Testbenutzer mit den voraussichtlich benötigten
@@ -76,6 +77,5 @@ Die ASLR wurde bootfest deaktiviert.
 
 ### Aufgetretene Probleme
 Wir haben uns aus unserer VM einmal ausgeschlossen, da der Paket-Manager des
-Betriebssystems die von uns gepatchte `su`-Datei wieder durch das original
+Betriebssystems die von uns gepatchte `su`-Datei wieder durch das Original
 ersetzt hat. Deshalb mussten wir die VM ein zweites Mal aufsetzen.
-
