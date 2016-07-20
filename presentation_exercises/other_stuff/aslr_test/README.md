@@ -1,8 +1,8 @@
-# ASLR - Address-Space-Layout-Randomization
+# ASLR - Address Space Layout Randomization
 ## Beschreibung
 
-ASLR ist eine Technik, die das Ausnützen von Buffer-Overflows deutlich
-erschwert.  Dies wird erreicht, indem die Adressen bestimmter Schlüsselregionen
+ASLR ist eine Technik, die das Ausnutzen von Buffer-Overflows deutlich
+erschwert. Dies wird erreicht, indem die Adressen bestimmter Schlüsselregionen
 beim Programmstart zufällig gewählt werden. Diese Schlüsselbereiche umfassen:
 
 * Start der ausführbaren Datei
@@ -22,14 +22,14 @@ Diese kann nur vom Root-User geändert werden.
 
     $ su -c 'echo 0 > /proc/sys/kernel/randomize_va_space'
     $ sysctl kernel.randomize_va_space=0
-    $ setarch $(uname -m)  -R <application> [<parameter>, ..]
+    $ setarch $(uname -m) -R <application> [<parameter>, ...]
 
 Die "0" steht hierbei für das Deaktivieren dieser Funktionlität, und die "1"
-für das Aktivieren.  Um dies permanent zu machen, kann eine entsprechende Datei
+für das Aktivieren. Um dies permanent zu machen, kann eine entsprechende Datei
 in `/etc/sysctl.d` anlegt werden.
 
 Um diese Technik zu veranschaulichen, wurde ein Programm erstellt, welches eine 
-Hart-Codierte-Adresse ausgibt. \
+Hartkodierte-Adresse ausgibt. \
 Ist ASLR deaktiviert, bleibt die Adresse gleich. \
 Ist ASLR hingegen aktiv, werden unterschiedliche Adressen ausgegeben.
 
@@ -42,6 +42,6 @@ Ist ASLR hingegen aktiv, werden unterschiedliche Adressen ausgegeben.
 
     $ ./test
 
-1. Ändern der ASLR Konfiguration mit einer der oben genannten Methoden.
+1. Ändern der ASLR Konfiguration mit einer der oben genannten Methoden
 
-1. Erneutes, mehrfaches Ausführen des Programms.
+1. Erneutes, mehrfaches Ausführen des Programms
