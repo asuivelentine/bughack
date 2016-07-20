@@ -1,11 +1,11 @@
 # Bruteforce
 ## Beschreibung
 Hierbei handelt es sich um keine Schwachstelle oder Sicherheitslücke, sondern
-es soll den Besuchern zeigen, dass man bereits mit wenig Zeilen Quellcode ein
-Passwortcracker programmieren kann.  Zugegeben, eine Bruteforce-Anwendung ist
-nicht die effektivste Attacke, jedoch ist sie oft hilfreich.   Um dies zu
-Demonstrieren, wurde ein weiteres Programm erstellt: dieses wartet auf eine
-bestimmte Eingabe, welche der "Bruteforcer"  anschließend erraten soll.
+es soll den Probanden zeigen, dass man bereits mit wenig Zeilen Quellcode ein
+Passwortcracker programmieren kann. Zugegeben, eine Bruteforce-Anwendung ist
+nicht die effektivste Attacke, jedoch ist sie oft hilfreich. Um dies zu
+demonstrieren, wurde ein weiteres Programm erstellt: dieses wartet auf eine
+bestimmte Eingabe, welche der "Bruteforcer" anschließend erraten soll.
 
 ## Aufgabenstellung
 1. Mit `gcc` das Demoprogramm kompilieren: 
