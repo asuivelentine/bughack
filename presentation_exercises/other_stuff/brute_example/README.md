@@ -23,3 +23,5 @@ bestimmte Eingabe, welche der "Bruteforcer" anschließend erraten soll.
     $ gcc -o bruteforce brute.c
 
 1. Bruteforce-Angriff starten:
+
+    $ ./bruteforce pass \<Passwortlänge\>
